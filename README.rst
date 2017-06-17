@@ -39,7 +39,7 @@ or directories::
   $ python-c ./,./dir1,./dir2/test.py 'loud()'
   hello
 
-In cases where it works (e.g., clashes between files are benign), you can **minimize your typing** and omit the first argument, the current directory is then loaded by default::
+In cases where it works (e.g clashes between files are benign), you can **minimize your typing** and omit the first argument, the current directory is then loaded by default::
 
     $ python-c 'loud()'
     hello
