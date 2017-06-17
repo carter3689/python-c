@@ -20,7 +20,7 @@ Instead of::
   $ python -c "import foo; foo.loud();"
   hello
 
-You can now lazily write:
+You can lazily write::
 
     $ python-c foo 'loud()'
     hello
