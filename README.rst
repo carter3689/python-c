@@ -1,5 +1,5 @@
 python-c
-====
+========
 
 An alternative to python -c with much less typing, at the price of being dirtier.
 
@@ -8,7 +8,7 @@ An alternative to python -c with much less typing, at the price of being dirtier
     $ pip install python-c
 
 Usage
-====
+=====
 
 If you have a file named foo.py with::
 
@@ -45,7 +45,7 @@ In cases where it works (e.g clashes between files are benign), you can **minimi
     hello
 
 Printing
-====
+========
 
 Printing is handled for you::
 
@@ -55,7 +55,7 @@ Printing is handled for you::
 The result of the call (if any) is printed, even though the function does not call 'print'.
 
 More examples
-====
+=============
 
 You can pass arguments to your functions::
 
@@ -73,6 +73,5 @@ This includes printing::
     double 2 is 4
 
 Rationale
-====
+=========
 **Time** is our most valuable non-possesion. The python interpreter must be clean and unambiguous, including the way it handls it's option '-c'. However, more often than not, I will accept being dirty (e.g live with benign clashes between files) and simply type **python-c 'test23()'** as opposed to the double as long **python -c 'import foo.py; foo.test23()'**. Such dirty functionality should not be built into the interpreter, hence *python-c*: the tool playfully indicates its motivation by saving you from typing a space between 'python' and '-c'.
-
