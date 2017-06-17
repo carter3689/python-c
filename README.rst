@@ -24,7 +24,7 @@ Instead of::
   $ python -c "import foo; foo.loud();"
   hello
 
-You can lazily write::
+You can now write::
 
     $ python-c foo 'loud()'
     hello
@@ -39,7 +39,7 @@ or directories::
   $ python-c ./,./dir1,./dir2/test.py 'loud()'
   hello
 
-In cases where it works (i.e., clashes between files are benign), you can **minimize your typing** and omit the first argument, the current directory is then loaded::
+In cases where it works (i.e., clashes between files are benign), you can **minimize your typing** and omit the first argument, the current directory is then loaded by default::
 
     $ python-c 'loud()'
     hello
