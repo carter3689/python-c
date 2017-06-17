@@ -74,5 +74,5 @@ This includes printing::
 
 Rationale
 ====
-**Time** is our most valuable non-possesion. The python interpreter must be clean and unambiguous, including the way it handls it's option '-c'. However, more often than not, I will accept being dirty (e.g live with benign clashes between files) and simply type e.g: **python-c 'test23()'** as opposed to the double as long **python -c 'import foo.py; foo.test23()'**. Such dirty functionality should not be built into the interpreter, hence *python-c*: the tool playfully indicates its motivation by saving you from typing a space between 'python' and '-c'.
+**Time** is our most valuable non-possesion. The python interpreter must be clean and unambiguous, including the way it handls it's option '-c'. However, more often than not, I will accept being dirty (e.g live with benign clashes between files) and simply type **python-c 'test23()'** as opposed to the double as long **python -c 'import foo.py; foo.test23()'**. Such dirty functionality should not be built into the interpreter, hence *python-c*: the tool playfully indicates its motivation by saving you from typing a space between 'python' and '-c'.
 
