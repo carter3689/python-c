@@ -74,4 +74,5 @@ This includes printing::
 
 Motivation
 ====
-I wrote this tool because I am so lazy that both 'python -c' and https://github.com/vascop/runp still felt like too much typing.
+Time is my and many other people's most valuable non-possesion. In other words, I am lazy. It is understandable that the python interpreter will provide clean and unambiguous options, such as '-c'. However, more often than not I accept being dirty (and live with benign clashes between files) and simply typing **$ python-c 'test23()'** as opposed to the double as long to type official way. Such a rearrangement of priorities between dirty and fast should not be built into the interpreter, hence *python-c*. The tool playfully indicates its motivation of laziness by saving you from typing a space between 'python' and '-c'.
+
