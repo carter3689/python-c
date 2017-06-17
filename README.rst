@@ -35,7 +35,7 @@ or directories::
   $ python-c ./,./dir1 'loud()'
   hello
 
-In cases where it works, you can maximize your laziness and omit the first argument, the current directory is then loaded::
+In cases where it works, you can **maximize your laziness** and omit the first argument, the current directory is then loaded::
 
     $ python-c 'loud()'
     hello
