@@ -3,6 +3,10 @@ python-c
 
 A lazy alternative to python -c.
 
+**Installation**::
+
+    $ pip install python-c
+
 Usage
 ====
 
