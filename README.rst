@@ -29,14 +29,14 @@ You can lazily write::
     $ python-c foo 'loud()'
     hello
 
-You can load multiple file::
+You can load multiple files::
 
   $ python-c foo,foo2 'loud()'
   hello
 
 or directories::
 
-  $ python-c ./,./dir1 'loud()'
+  $ python-c ./,./dir1,./dir2/test.py 'loud()'
   hello
 
 In cases where it works, you can **maximize your laziness** and omit the first argument, the current directory is then loaded::
