@@ -49,7 +49,7 @@ Printing
 
 Printing is handled for you::
 
-    $ python-c foo quite()
+    $ python-c foo 'quite()'
     5
 
 The result of the call (if any) is printed, even though the function does not call 'print'.
